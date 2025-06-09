@@ -1,0 +1,10 @@
+# Ścieżka do głównego folderu z danymi (względem miejsca uruchomienia skryptu)
+path: ../dataset
+
+# Ścieżki do folderów z obrazami treningowymi i walidacyjnymi (testowymi)
+train: images/train
+val: images/test
+
+# Definicja klas (mamy tylko jedną klasę: "plate" o numerze 0)
+names:
+  0: plate
